@@ -1,0 +1,230 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('/donation5.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+.banner-box{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+.banner-box h1{
+    font-size: 90px;
+    margin: 5% 20% 5%;
+    
+    
+}
+.banner-box p{
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 2% 25%;
+    line-height: 25px;
+}
+.banner-box a{
+    width: 200px;
+    margin: 50px 30px;
+    padding: 25px 20px;
+    border-radius: 10px ;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(230, 213, 213);
+    background-color: rgb(230, 76, 76);
+}
+.amount{
+    height: 100vh;
+    width: 100%;
+}
+.amount-content{
+    width: 100%;
+    text-align: center;
+    color: rgb(10, 10, 10);
+}
+.amount-content h3{
+    font-size: 50px;
+    margin: 5% 20% 5%;
+}
+.amount-content p{
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 2% 25%;
+    color: rgb(114, 113, 111);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.plan{
+    display: flex;
+    justify-content: center;
+    margin: 0% 3%;
+    padding: 5%;
+    box-sizing: border-box;
+    font-size: 25px;
+    text-align: justify;
+    
+}
+.image-new{
+    height: 100vh;
+    width: 100%;
+}
+.plan > div{
+    padding: 5%;
+}
+.plan img{
+    justify-content: left;
+    margin: 0%;
+    margin-bottom: 10px;
+    padding: 0%;
+    height: 60px;
+    width: 60px;
+}
+.plan p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 200px;
+    padding: 50px;
+    margin: 10px 10px 10px 0;
+    border: 1px solid red;
+    color: rgb(235, 65, 65);
+    border-radius: 5px ;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  input[type=text] {
+    width: 50%;
+    padding: 22px 28px;
+    margin: 28px 0;
+    font-size: 25px;
+    border: none;
+    border-bottom: 2px solid rgb(145, 135, 135);
+    text-align: center;
+  }
+  .amount-content a{
+    width: 200px;
+    margin: 60px 30px;
+    padding: 25px 20px;
+    border-radius: 10px ;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(230, 213, 213);
+    background-color: rgb(230, 76, 76);
+}
+.email{
+    height: 100vh;
+    width: 100%;
+}
+.email-box{
+    width: 100%;
+    text-align: center;
+    color: rgb(10, 10, 10);
+}
+.email-box h3{
+    font-size: 50px;
+    margin: 5% 20% 5%;
+}
+input[type = email]{
+    padding: 7%;
+}
+.email-subscription {
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 210, 182);
+    margin: 2% 20% 2%;
+    padding: 15%;
+    
+    
+}
+.email-subscription a{
+    padding: 2%;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(230, 213, 213);
+    background-color: rgb(230, 76, 76);
+}
+.footer
+{
+    height: 100vh;
+    width: 100%;
+}
+.footer-content{
+   
+  width: 100%;
+  height: 100%;
+  text-align: center;
+    color: azure;
+    background-color: black;
+    
+}
+.footer-content h3{
+    padding: 20%;
+    padding-bottom: 0%;
+    font-family: 'Arima', cursive;
+    font-family: 'Playfair Display', serif;
+    color: rgb(218, 95, 119);
+    font-size: 80px;
+    
+    
+}
+.half-width h3{
+text-align: center;
+
+}
+.half-width p{
+
+    text-align: center;
+    margin-bottom: 80px;
+}
+.half-width a{
+    width: 200px;
+    margin: 60px 30px;
+    padding: 25px 20px;
+    border-radius: 10px ;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(230, 213, 213);
+    background-color: rgb(230, 76, 76);
+    justify-content: center;
+}
+
+.half-width{
+
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    padding: 5%;
+    width: 85%;
+}
+
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
